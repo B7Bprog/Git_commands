@@ -1,0 +1,27 @@
+Git
+
+Distributed version control system, designed by Linus Torvalds.
+
+Basic Commands
+
+Note: At least one commit has to be done on a branch for it to appear for the $ git branch command.
+
+$ git init  //Initialize a local repository
+$ git add <file> //Adds files to Index
+$ git status //cheks status of working tree
+$ git commit //Commits changes in Index
+$ git push  //Pushes to remote repository
+$ git pull  //Pull latest version from remote repository
+$ git clone  //Clone a repository into a new directory
+$ touch <file> //Create file
+$ git branch -a //See existing branches
+$ $ git branch -d <your branch> //Delete branch
+$ git reset --hard test //Use this in Master branch where all files are deleted to copy files from 			test branch
+$ git push -u origin master //push to remote branch
+$ git checkout -b [name_of_your_new_branch]  //Create new branch
+$ git remote add origin https://username@stash/scm/PROJECT/repo.git //Add remote repository
+$ git remote -v //Check added repository
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git //Set new URL for origin
+$ git fetch origin master //fetch
+$ git pull origin master --allow-unrelated-histories //Help to pull
+$ git merge other_repo  //Merging other_repo into current repo
